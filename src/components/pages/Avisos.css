@@ -1,0 +1,78 @@
+.avisos {
+  width: 100%;
+  min-height: calc(100vh - 80px);
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  margin-left: 20%;
+  margin-top: -10px;
+}
+
+.avisos .post {
+  width: 800px;
+  height: auto;
+  max-height: 600px;
+  background-color: rgb(250, 250, 250);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.post .postHeader {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.postHeader .tituloAutor {
+  margin-top: 1%;
+  margin-bottom: 15px;
+  flex: 50%;
+}
+
+.dataContainer h6 {
+  font-size: 12px;
+  float: right;
+}
+
+
+.postHeader .deletePost {
+  margin-left: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  cursor: pointer;
+}
+
+.deletePost:hover {
+  color: red;
+}
+
+.deletePost button {
+  border: none;
+
+  background: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.post .postTextContainer {
+  font-size: 16px;
+  word-wrap: break-word;
+  height: auto;
+  max-height: 400px;
+  width: 100%;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+/*@media only screen and (min-width: 1400px) {
+  .avisos {
+    position: absolute;
+    left: 30%;
+    top: 40%;
+    transform: translate(-50%, -30%);
+  }
+}*/

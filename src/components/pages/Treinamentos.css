@@ -1,0 +1,14 @@
+.ContainerGeralTreinamento {
+  margin: 2% 0 0 4%;
+  font-weight: 100;
+}
+
+.ContainerGeralTreinamento .ContainerConteudo {
+  display: flex;
+
+  flex-wrap: wrap;
+}
+
+.Conteudo {
+  margin: 10px 0 0 15px;
+}

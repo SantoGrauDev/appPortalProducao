@@ -1,0 +1,7 @@
+.BotaoVoltar {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  float: right;
+  margin: 5px 20px 5px 0;
+}

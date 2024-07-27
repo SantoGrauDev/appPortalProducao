@@ -1,0 +1,93 @@
+/* INICIO ESTILO SIDEBAR */
+.barratoggle {
+  display: flex;
+  z-index: 1;
+}
+.BtnSair {
+  margin: 0;
+}
+
+.sidebar {
+  z-index: 1;
+  background: #803ca8;
+  color: #fff;
+  height: 85vh;
+  max-width: 200px;
+  transition: all 0.5s;
+  border-radius: 7px;
+  margin-left: 0.3rem;
+  margin-top: 0.3rem;
+}
+
+.top_selection,
+.linkbrush {
+  display: flex;
+  align-items: center;
+  padding: 15px 15px;
+}
+
+.logo {
+  font-size: 30px;
+}
+
+.logo img {
+  height: 100px;
+  width: 150px;
+  margin: 60% 0 0 8%;
+  transition: all 0.5s;
+}
+
+.bars {
+  display: flex;
+  font-size: 25px;
+  margin-left: 50px;
+  transition: all 0.5s;
+}
+
+.link,
+.linkEditor {
+  display: flex;
+  color: #fff;
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+  text-decoration: none;
+}
+
+.link:hover,
+.EditorHover:hover {
+  background-color: lightskyblue;
+  color: #000;
+  transition: all 0.5s;
+}
+
+.fabars {
+  cursor: pointer;
+}
+
+.icon,
+.link_text,
+a {
+  font-size: 15px;
+}
+
+.BtnSair a,
+.linkEditorLink,
+.linkEditor {
+  text-decoration: none !important;
+  color: #fff !important;
+  gap: 15px;
+  transition: all 0.5s;
+  text-decoration: none;
+  display: flex;
+}
+.BtnSair a {
+  margin: 0.4rem 0 0.4rem 0.4rem;
+}
+.linkbrush:hover {
+  background-color: lightskyblue;
+  color: #000;
+  transition: all 0.5s;
+}
+
+/* FIM ESTILO SIDEBAR */

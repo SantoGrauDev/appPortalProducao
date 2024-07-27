@@ -1,0 +1,110 @@
+.ContainerGeral {
+  margin: 0;
+  box-sizing: border-box;
+
+  width: 94vw;
+
+  margin: 1rem auto;
+  padding: 0 2rem;
+}
+
+.filtro {
+  width: 100%;
+
+  color: #999999;
+
+  display: flex;
+  justify-content: center;
+
+  span {
+    width: 65px;
+    display: flex;
+    justify-content: center;
+  }
+
+  span:hover {
+    background-color: #396598;
+    border-radius: 0.5rem;
+    color: #fff;
+    cursor: pointer;
+  }
+}
+
+.filtroBord {
+  display: flex;
+  border-radius: 0.8rem;
+  border: 2px solid transparent;
+  background: linear-gradient(#fff, #fff) padding-box,
+    radial-gradient(#00c9a7, #845ec2) border-box;
+}
+
+.containerBoxSuperior {
+  width: 90vw;
+
+  margin-top: 10px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.boxSuperiorConteudo {
+  background-color: #fff;
+  width: 32%;
+  height: 200px;
+
+  box-shadow: 7.8px 3.3px 4.4px rgba(0, 0, 0, 0.044),
+    21.5px 9.1px 12.1px rgba(0, 0, 0, 0.032),
+    51.9px 22px 29.2px rgba(0, 0, 0, 0.021), 172px 73px 97px rgba(0, 0, 0, 0.09);
+}
+
+.controlaConteudo {
+  width: 100%;
+}
+
+.titulo {
+  margin: 0.4rem auto 0 0.6rem;
+  font-weight: bold;
+}
+
+.termometro,
+.relatorio {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 20px;
+
+  width: 48%;
+
+  height: 400px;
+
+  background-color: #fff;
+
+  box-shadow: 7.8px 3.3px 4.4px rgba(0, 0, 0, 0.044),
+    21.5px 9.1px 12.1px rgba(0, 0, 0, 0.032),
+    51.9px 22px 29.2px rgba(0, 0, 0, 0.021), 172px 73px 97px rgba(0, 0, 0, 0.09);
+}
+
+.conteudoTerm {
+  margin: 4.5rem auto;
+}
+
+.ContainerTermVel {
+  display: flex;
+  justify-content: space-between;
+
+  width: 99%;
+}
+
+.conteudo {
+  display: flex;
+  width: 100%;
+
+  font-weight: bold;
+  color: #396598;
+
+  font-size: 25px;
+
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+}

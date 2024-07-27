@@ -1,0 +1,12 @@
+.ContainerMenuCatalogo {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  font-size: 10px;
+}
+
+.ContainerCardMenu {
+  margin: 1rem 0 6rem 1rem;
+}

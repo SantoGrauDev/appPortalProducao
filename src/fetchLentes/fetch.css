@@ -1,0 +1,126 @@
+/* Estilo para o componente FetchLentes */
+.FetchLentes {
+  margin: 16px;
+  width: 95%;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+/* Estilo para os botões de seleção de ID */
+.button-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.button-container button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-container button:hover {
+  background-color: #2980b9;
+}
+
+/* Estilo para a tabela */
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+  max-height: 88vh; /* Ajuste conforme necessário */
+
+  background-color: #fff;
+}
+
+.table-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-container th,
+.table-container td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.table-container th {
+  background-color: #3498db;
+  color: #fff;
+}
+
+/* .table-container tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+} */
+
+.table-container tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Adicione barras de rolagem personalizadas */
+.table-container {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+/* Estilo da barra de rolagem vertical */
+.table-container::-webkit-scrollbar {
+  width: 12px;
+}
+
+.table-container::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 8px;
+}
+
+.table-container::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+/* Estilo da barra de rolagem horizontal */
+.table-container::-webkit-scrollbar-horizontal {
+  height: 12px;
+  height: 12px;
+}
+
+.table-container::-webkit-scrollbar-thumb-horizontal {
+  background-color: #888;
+  border-radius: 8px;
+}
+
+.table-container::-webkit-scrollbar-track-horizontal {
+  background-color: #f1f1f1;
+}
+
+.FetchLentes input[type="text"] {
+  width: 30%;
+  padding: 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.FetchLentes input[type="text"]:focus {
+  outline: none;
+  border: 1px solid #3498db;
+}
+
+.search-button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.search-button:hover {
+  background-color: #45a049;
+}

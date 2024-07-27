@@ -1,0 +1,103 @@
+a {
+  text-decoration: none;
+}
+.ContainerImg img {
+  margin-left: 50px;
+  width: 400px;
+  height: 500px;
+}
+
+.regras {
+  margin-top: 40px;
+}
+
+.titleInicio,
+.titleValidade {
+  margin-top: 10px;
+}
+.titleValidade {
+  float: right;
+  color: red;
+  position: absolute;
+  right: 30px;
+  bottom: 10px;
+}
+
+.ContainerCardAcoes {
+  display: inline-block;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.ContainerSubCardAcoes {
+  margin: 1rem 0 6rem 1rem;
+}
+
+.ContainerGeralCampanha .post {
+  width: 800px;
+  height: auto;
+  max-height: 600px;
+  background-color: #b2ffb2;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.post .postHeader {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.postHeader .tituloAutor {
+  margin-top: 1%;
+  margin-bottom: 15px;
+  flex: 50%;
+}
+
+.dataContainer h6 {
+  font-size: 12px;
+  float: right;
+}
+
+.postHeader .deletePost {
+  margin-left: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  cursor: pointer;
+}
+
+.deletePost:hover {
+  color: red;
+}
+
+.titleLink a:hover {
+  color: aqua;
+}
+
+.deletePost button {
+  border: none;
+
+  background: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.post .postTextContainer {
+  word-wrap: break-word;
+  height: auto;
+  max-height: 400px;
+  width: 100%;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+/*@media only screen and (min-width: 1400px) {
+  .avisos {
+    position: absolute;
+    left: 30%;
+    top: 40%;
+    transform: translate(-50%, -30%);
+  }
+}*/

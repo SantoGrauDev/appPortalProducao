@@ -1,0 +1,44 @@
+.ContainerHome {
+  width: 90vw;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: 0;
+}
+
+.GridLogo {
+  height: 400px;
+}
+
+.Gridheader {
+  width: 100%;
+  display: flex;
+
+  justify-content: space-around;
+
+  background-color: #803ca8;
+
+  margin: 3rem 8rem;
+
+  border-radius: 2rem;
+}
+
+.Gridheader .Gridh1 {
+  font-size: 35px;
+
+  color: #fff;
+}
+
+.Gridheader .GridP {
+  font-size: 17px;
+
+  color: #fff;
+}
+
+.GridButtons {
+  margin: 3% 0 0 7%;
+}
+
+.ImagemLogo {
+  margin: 5rem 5rem;
+}

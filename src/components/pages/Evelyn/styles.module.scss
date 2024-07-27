@@ -1,0 +1,16 @@
+.select {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.atrLentes {
+  display: flex;
+  flex-direction: column;
+
+  span {
+    font-size: 15px;
+    margin: 5px 15px;
+  }
+}
